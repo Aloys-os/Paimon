@@ -1,0 +1,12 @@
+fsspec
+pandas
+peft
+torch
+torchaudio
+torchvision
+transformers
+trl
+accelerate
+gradio
+dashscope
+pyaudio
