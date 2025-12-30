@@ -16,7 +16,7 @@ import wave
 # 配置
 BASE_MODEL_PATH = "Qwen/Qwen3-1.7B"
 LORA_MODEL_PATH = "code/output/dpo_model/final_dpo_model"
-DASHSCOPE_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+DASHSCOPE_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 TTS_MODEL_NAME = "qwen3-tts-vd-realtime-2025-12-16"
 TTS_VOICE_ID = "qwen-tts-vd-announcer-voice-20251224195614166-b94c"
 TTS_URL = 'wss://dashscope.aliyuncs.com/api-ws/v1/realtime'

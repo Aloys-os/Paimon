@@ -18,7 +18,7 @@ BASE_MODEL_PATH = "Qwen/Qwen3-1.7B"
 LORA_MODEL_PATH = "code/output/dpo_model/final_dpo_model" 
 
 # 2. TTS 服务配置
-DASHSCOPE_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx"  #api key
+DASHSCOPE_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  #api key
 TTS_MODEL_NAME = "qwen3-tts-vd-realtime-2025-12-16"        #派蒙声音基础模型
 TTS_VOICE_ID = "qwen-tts-vd-announcer-voice-20251224195614166-b94c" #派蒙音色ID
 TTS_URL = 'wss://dashscope.aliyuncs.com/api-ws/v1/realtime'         #北京地域URL

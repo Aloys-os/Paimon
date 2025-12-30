@@ -6,7 +6,7 @@ import dashscope
 def create_voice_and_play():
     # 新加坡和北京地域的API Key不同。获取API Key：https://help.aliyun.com/zh/model-studio/get-api-key
     # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key = "sk-xxx"
-    dashscope.api_key = os.getenv("DASHSCOPE_API_KEY", "sk-8f27d36b5fc2479395bfb712f1a4c258")
+    dashscope.api_key = os.getenv("DASHSCOPE_API_KEY", "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
     if not dashscope.api_key:
         print("错误: 未找到DASHSCOPE_API_KEY环境变量，请先设置API Key")
